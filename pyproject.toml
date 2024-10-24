@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chat with multiple pdf documents with langchain and google gemini"
+version = "0.1.0"
+description = ""
+authors = ["Nasir Abbas <akhtarabbas.islamicreaction@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^2.0.1"
+google-generativeai = "^0.8.3"
+pypdf2 = "^3.0.1"
+pypdf = "^5.0.1"
+faiss-cpu = "^1.9.0"
+langchain-community = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
